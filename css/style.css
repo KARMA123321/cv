@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playwrite DE Grund", cursive;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000c1;
+  background-color: #f1f1f1;
+  margin: 0;
+  min-width: 400px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#hobbies ul {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin: 10px 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-bottom: 20px;
+  background-color: #000;
+  height: 4px;
+}
+
+.card {
+  border-radius: 25px;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-inline: auto;
+}
+
+#cv {
+  padding: 20px;
+  max-width: fit-content;
+  margin-inline: auto;
+}
+
+.top {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+#main {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#main h1 {
+  font-style: normal;
+}
+
+#main p {
+  max-width: 40vw;
+}
+
+#avatar {
+  width: 200px;
+  border-radius: 25%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.bg-light-blue {
+  background-color: lightblue;
+}
+
+.bg-light-pink {
+  background-color: lightpink;
+}
+
+.bg-light-golden-yellow {
+  background-color: lightgoldenrodyellow;
+}
+
+.bg-light-green {
+  background-color: rgba(144, 238, 144, 0.73);
+}
+
+.bg-light-purple {
+  background-color: rgba(137, 43, 226, 0.678);
+}
+
+#experience table {
+  margin: 0 10px 20px 10px;
+  min-width: calc(100% - 20px);
+  border-collapse: collapse;
+}
+
+#experience th {
+  text-align: left;
+}
+
+#experience th:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#experience th:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#experience tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 3px;
+}
+
+#experience tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 3px;
+}
+
+#experience td,
+#experience th {
+  padding: 5px 5px;
+}
+
+#main,
+#experience td {
+  font-size: 0.9em;
+}
+
+#experience tr:nth-child(even) {
+  background-color: rgba(233, 233, 233, 0.575);
+}
+
+#experience tbody tr:nth-child(odd) {
+  background-color: rgba(252, 252, 252, 0.575);
+}
+
+#experience table thead {
+  background-color: bisque;
+}
+
+#form div {
+  margin: 5px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#social-media div {
+  margin: 20px 0px 20px 10px;
+}
+
+#social-media div a:nth-child(2) {
+  margin-left: 10px;
+}
+
+.media-btn {
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5%;
+  font-family: inherit;
+  transition: all 0.5s;
+}
+
+a.media-btn:hover {
+  color: blue;
+  padding: 15px 25px;
+}
+
+#form {
+  color: #eee;
+}
+
+#form .form-block {
+  margin: 10px;
+}
+
+#form .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#form label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+#form input:not([type="submit"]),
+#form textarea {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: #f1f1f1;
+  font-family: inherit;
+}
+
+#form .row .form-block {
+  width: 45%;
+}
+
+#form [type="submit"] {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  min-width: 60px;
+  padding: 5px 0px;
+}
+
+@media (width <= 540px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  #main {
+    width: 100%;
+  }
+
+  .top p {
+    min-width: 100%;
+  }
+
+  .top {
+    text-align: center;
+  }
+}
+
+@media (width <= 460px) {
+  #form .row .form-block {
+    width: 100%;
+  }
+}

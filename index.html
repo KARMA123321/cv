@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="cv" />
+    <meta name="description" content="My CV" />
+    <title>CV</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="cv">
+      <div class="top">
+        <img src="./img/me.jpg" id="avatar" />
+        <div id="main">
+          <h1>Ivan Ivanov</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit</strong>. Libero similique ducimus, ipsa
+            accusamus debitis saepe assumenda! Est optio fuga laborum?
+          </p>
+          <p>
+            Provident, saepe expedita vel quia deserunt alias
+            iste tenetur magni quas culpa eius? Tenetur, corrupti nulla et <strong>veniam distinctio</strong> debitis nihil deleniti?
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div id="hobbies" class="card bg-light-pink">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>TV series</li>
+          <li>Walking</li>
+          <li>Self-learning</li>
+          <li>Coffee</li>
+        </ul>
+      </div>
+      <div id="experience" class="card bg-light-golden-yellow">
+        <h2>Experience</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Position</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lorem ipsum</td>
+              <td>Junior</td>
+              <td>2121-2122</td>
+            </tr>
+            <tr>
+              <td>Dolor</td>
+              <td>Junior+</td>
+              <td>2122-2123</td>
+            </tr>
+            <tr>
+              <td>Sit Amet</td>
+              <td>Middle</td>
+              <td>2123</td>
+            </tr>
+            <tr>
+              <td>Elit</td>
+              <td>Senior</td>
+              <td>2123-current</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="social-media" class="card bg-light-green">
+        <h2>Social media</h2>
+        <div>
+          <a href="https://ru.wikipedia.org/wiki/LinkedIn" class="media-btn" target="_blank">LinkedIn</a>
+          <a
+            href="https://ru.wikipedia.org/wiki/%D0%92%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5"
+            class="media-btn"
+            target="_blank"
+            >VK</a
+          >
+        </div>
+      </div>
+      <div id="form" class="card bg-light-purple">
+        <h2>Contact me</h2>
+        <form name="contact-me">
+          <div class="row">
+            <div class="form-block">
+              <label for="name">Name:</label>
+              <input type="text" id="name" placeholder="Your name" />
+            </div>
+            <div class="form-block">
+              <label for="email">Email:</label>
+              <input type="email" id="email" placeholder="Your e-mail" />
+            </div>
+          </div>
+          <div class="form-block">
+            <label for="message">Message:</label>
+            <textarea rows="5" id="message" placeholder="Your message"></textarea>
+          </div>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
