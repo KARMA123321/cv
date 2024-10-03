@@ -1,3 +1,3 @@
 # My CV
 
-## It's available [here](karma123321.github.io)
+## It's available [here](https://karma123321.github.io/cv/)
